@@ -1,4 +1,10 @@
+import Skills from '../components/about-me-components/Skills'
+
 const About = () => {
-  return <div></div>
+  return (
+    <>
+      <Skills />
+    </>
+  )
 }
 export default About
