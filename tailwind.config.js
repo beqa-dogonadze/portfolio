@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
         kanit: ['Kanit', 'sans-serif'],
+        sora: ['Sora', 'sans-serif'],
         fiera: ['Fira Sans', 'sans-serif']
       }
     }
