@@ -9,11 +9,3 @@ body {
   background-color: rgb(26, 25, 25);
   font-family: 'Fira Sans', sans-serif;
 }
-
-.custom-bg {
-  background-image: url('https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg');
-  background-repeat: no-repeat;
-  background-size: inherit;
-  width: 100%;
-  height: auto;
-}
