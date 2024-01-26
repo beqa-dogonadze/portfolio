@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Project = ({ img, desc, tools, link }) => {
   return (
-    <div className='w-[340px] h-[350px] max-h-[600px] space-y-3 p-3 flex flex-col rounded-2xl bg-[#1A1919] shadow-lg shadow-gray-500/20'>
+    <div className='w-[340px] h-[350px] max-h-[600px] space-y-3 p-3 flex flex-col rounded-2xl bg-gradient-to-b from-[#161515]  to-black shadow-lg shadow-red-500/30'>
       <img
         src={img}
         alt={desc}

@@ -26,6 +26,12 @@ const Projects = () => {
           desc='Personal website to download applications'
           link='https://app-soft.netlify.app/'
         />
+        <Project
+          img='https://i.postimg.cc/vZxV2KF5/Screenshot-1.png'
+          tools='React, Tailwind CSS'
+          desc='E-Com website with multiple pages'
+          link='https://megamartweb.vercel.app/'
+        />
       </div>
       <Link
         to='https://github.com/beqa-dogonadze?tab=repositories'

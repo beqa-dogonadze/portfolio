@@ -30,18 +30,22 @@ const Navigation = () => {
   }
 
   return (
-    <header className='sticky top-0 z-10 shadow-md'>
+    <header className='sticky top-0 z-10 shadow-md '>
       {/* Main Navigation */}
-      <nav className='flex opacity-85 justify-between items-center bg-black text-2xl h-[70px] border-b border-gray-700'>
+      <nav className='flex justify-between items-center bg-black text-2xl h-[70px] border-b border-gray-700'>
         {/* Logo */}
         <div className='text-white flex items-center ml-10 gap-5 text-4xl'>
-          <h1 className='font-bold'>
+          <h1 className='font-bold -ml-8 md:lg:ml-0'>
             <Link to='/'>
               Beqa <span className='text-red-500'>D</span>.
             </Link>
           </h1>
           <Link to='/'>
-            <SiWebpack className='text-red-500' />
+            <SiWebpack
+              className={`${
+                !isBurgerMenuOpen ? 'flex' : 'hidden'
+              } text-red-500`}
+            />
           </Link>
         </div>
 
@@ -52,7 +56,7 @@ const Navigation = () => {
         <ul
           className={`lg:flex md:flex ${
             isBurgerMenuOpen ? 'flex' : 'hidden'
-          } flex-col sm:flex-row justify-between w-max gap-2 md:gap-10 mr-12 lg:gap-16 mt-32 z-10 bg-black md:mt-0 lg:mt-0 items-center text-white font-bold font-lato`}
+          } flex-col sm:flex-row justify-between w-max gap-2 md:gap-10 mr-10 lg:gap-16 mt-32 z-10 bg-black md:mt-0 lg:mt-0 items-center text-white font-bold font-lato`}
         >
           {/* Navigation Items */}
           <li
